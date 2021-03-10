@@ -15,13 +15,13 @@ namespace Pong.Scoreboards
 
         private string SavePath => $"{Application.persistentDataPath}/highscores.json";
 
-        public void StartUp()
+        /*public void StartUp()
         {
             ScoreboardSaveData savedScores = GetSavedScores();
             
             UpdateUI(savedScores);
             SaveScores(savedScores);
-        }
+        }*/
 
         [ContextMenu("AddTestEntry")]
         public void TestEntry()

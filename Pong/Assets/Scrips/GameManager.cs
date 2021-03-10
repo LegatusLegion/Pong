@@ -45,9 +45,9 @@ public class GameManager : MonoBehaviour
 
     private void Menu()
     {
-        scoreboard.StartUp();
+        //scoreboard.StartUp();
         if (Input.GetKeyDown(KeyCode.Escape))
-            return;
+            Application.Quit();
     }
 
 
